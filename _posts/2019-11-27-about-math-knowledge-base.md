@@ -7,6 +7,7 @@ img: # Add image post (optional)
 fig-caption: # Add fig caption (optional)
 tags: [数学,知识库]
 ---
+
 Hello朋友们，我自己搭建了一个数学知识库，它是一个致力于提供高效检索和全天候学习服务的数学专业Wiki，当然它是完全开源的！
 
 ## 知识库内容
