@@ -25,7 +25,7 @@ cannot setup TLPDB in /home/shen/texmf at /usr/bin/tlmgr line 5435.
 此时需要初始化
 
 ```bash
-$ tlmgr install framed
+$ tlmgr init-usertree
 ```
 
 再次尝试安装宏包时继续报错
