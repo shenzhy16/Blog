@@ -26,7 +26,7 @@ sudo apt-get install calibre
 
 ### 从官网安装
 
-官网提供了一键安装的命令，系统将直接下载安装最新版4.15jike
+官网提供了一键安装的命令，系统将直接下载安装最新版4.15即可
 
 ```bash
 sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
@@ -40,7 +40,7 @@ sudo -v && sudo calibre-uninstall && wget -nv -O- https://download.calibre-ebook
 ## 使用体验
 介绍Calibre功能的文章非常多，我不作太多介绍，仅谈我的需求和遇到的问题：
 ### 中文输入法支持问题
-由于我使用的是从官网下载的Calibre，因此对中文输入法支持不好，无法在Calibre内调用fcitx（搜狗）输入法，原因大概是Calibre没有使用系统提供的Qt图形库及附带的插件，而自带的Qt库和fcitx的与版本不一致。
+由于我使用的是从官网下载的Calibre，因此对中文输入法支持不好，无法在Calibre内调用fcitx（搜狗）输入法，原因大概是Calibre没有使用系统提供的Qt图形库及附带的插件，而自带的Qt库和fcitx的与版本不一致.
 
 其实最简单的解决办法是从镜像源安装，镜像版本没有这个问题，从实际体验看二者几乎没有区别.
 
@@ -60,7 +60,7 @@ sudo -v && sudo calibre-uninstall && wget -nv -O- https://download.calibre-ebook
 
 ### 导出的Bib文件格式问题
 
-如果电子书需要作为参考，Calibre支持导出Bib文件，方法是使用Calibre编制书目，选择BiB格式导出。
+如果电子书需要作为参考，Calibre支持导出Bib文件，方法是使用Calibre编制书目，选择BiB格式导出.
 
 但是这样导出文件有两个问题：
 
