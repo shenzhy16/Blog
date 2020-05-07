@@ -60,12 +60,6 @@ sudo -v && sudo calibre-uninstall && wget -nv -O- https://download.calibre-ebook
 
 ### 导出的Bib文件格式问题
 
-如果电子书需要作为参考，Calibre支持导出Bib文件，方法是使用Calibre编制书目，选择BiB格式导出.
-
-但是这样导出文件有两个问题：
-
-* 只支持导出所有书籍的Bib，不能选择特定书籍；
-
-* 格式与我往常使用的、使用Biber编译通过的格式不同.
+如果电子书需要作为参考，Calibre支持导出Bib文件，方法是使用Calibre编制书目，选择BiB格式导出.但是导出的格式与我往常使用的、使用Biber编译通过的格式不同.
 
 解决方法是首选项-添加栏目-创建自定义栏目，然后添加一个文本类型的栏目即可.
