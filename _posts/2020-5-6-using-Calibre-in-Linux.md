@@ -12,7 +12,7 @@ tags: [Linux]
 ## 安装
 
 ### 从镜像安装
-从镜像安装当然是最简单的，传统异能apt-get就行了
+从镜像安装当然是最简单的，传统艺能apt-get就行了
 
 ```bash
 sudo apt-get install calibre
@@ -26,13 +26,13 @@ sudo apt-get install calibre
 
 ### 从官网安装
 
-官网提供了一键安装的命令，系统将直接下载安装最新版4.15即可
+官网提供了一键安装的命令，系统将直接下载安装最新版
 
 ```bash
 sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
 ```
 
-当然还可以安装指定版本，例如
+当然还可以安装指定版本，例如安装3.48.0
 ```bash
 sudo -v && sudo calibre-uninstall && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin version=3.48.0
 ```
@@ -40,7 +40,7 @@ sudo -v && sudo calibre-uninstall && wget -nv -O- https://download.calibre-ebook
 ## 使用体验
 介绍Calibre功能的文章非常多，我不作太多介绍，仅谈我的需求和遇到的问题：
 ### 中文输入法支持问题
-由于我使用的是从官网下载的Calibre，因此对中文输入法支持不好，无法在Calibre内调用fcitx（搜狗）输入法，原因大概是Calibre没有使用系统提供的Qt图形库及附带的插件，而自带的Qt库和fcitx的与版本不一致.
+由于我使用的是从官网下载的Calibre，因此对中文输入法支持不好，无法在Calibre内调用fcitx（搜狗）输入法，原因大概是Calibre没有使用系统提供的Qt图形库及附带的插件，而是自带了Qt库，自带的Qt库和fcitx的版本不一致.
 
 其实最简单的解决办法是从镜像源安装，镜像版本没有这个问题，从实际体验看二者几乎没有区别.
 
