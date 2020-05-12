@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Linux下使用pdfchain
+author: 沈卓洋
 date: 2020-5-7 14:00:00 +0800
 fig-caption: # Add fig caption (optional)
 tags: [Linux]

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Linux中为应用程序创建开始菜单
+author: 沈卓洋
 date: 2020-1-17 13:37:00 +0800
 img: # Add image post (optional)
 fig-caption: # Add fig caption (optional)

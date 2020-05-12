@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Linux下手动更新TexLive宏包
+author: 沈卓洋
 date: 2020-5-11 22:17:00 +0800
 fig-caption: # Add fig caption (optional)
 tags: [Linux,LaTeX]

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Linux下使用Calibre
+author: 沈卓洋
 date: 2020-5-6 17:15:00 +0800
 img: # Add image post (optional)
 fig-caption: # Add fig caption (optional)

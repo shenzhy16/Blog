@@ -1,6 +1,7 @@
 ---
 layout: article
 title: 关于数学知识库
+author: 沈卓洋
 date: 2019-11-27 10:25:00 +0800
 description: Hello朋友们，我自己搭建了一个数学专业的Wiki，有兴趣的可以来看看呀
 img: # Add image post (optional)

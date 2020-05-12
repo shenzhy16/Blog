@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Linux下使用TeXLive包管理器tlmgr
+author: 沈卓洋
 date: 2020-2-15 12:52:00 +0800
 img: # Add image post (optional)
 fig-caption: # Add fig caption (optional)

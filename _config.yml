@@ -18,8 +18,8 @@ timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for
 author:
   type      : person # "person" (default), "organization"
   name      : 沈卓洋
-  url       :
-  avatar    : # path or url of avatar image (square)
+  url       : https://blog.shenzy.cn
+  avatar    : /assets/images/avatar.jpg
   bio       : 一个自以为有趣的小朋友
   email     : shenzhy16@gmail.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: 一种有效解决GitHub Page访问过慢的方法
+author: 沈卓洋
 date: 2019-12-15 21:03:00 +0800
 description: 花了几天时间，总算找到了一种有效解决GitHub Page访问过慢的方法
 img: # Add image post (optional)
