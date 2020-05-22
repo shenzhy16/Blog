@@ -45,9 +45,15 @@ sudo -v && sudo calibre-uninstall && wget -nv -O- https://download.calibre-ebook
 
 其实最简单的解决办法是从镜像源安装，镜像版本没有这个问题，从实际体验看二者几乎没有区别.
 
-如果动手能力强的也可以自己解决，方法就是把系统的Qt库拷贝到 Calibre 对应目录，具体解决方法参阅:
+安装iBus框架的中文输入法也可解决这个问题，安装和使用ibus中文输入法参阅[这篇文章](https://blog.shenzy.cn/2020/05/22/install-ibus-in-deepin.html)
+
+如果动手能力强可以尝试解决，方法大概是复制相应到库文件到Calibre的库文件目录下，参考资料：
 * https://luyangp.github.io/fcitx-for-qt/
 * https://www.douban.com/note/658979731/
+
+在Debian系下相应的Qt5库文件位于`/usr/lib/x86_64-linux-gnu/`以及`/usr/lib/x86_64-linux-gnu/qt5/plugins/`；
+
+但是我实测Deepin V15.11下4.15版本的Calibre此法无效（我吐了）
 
 ### 不能创建多级标签
 由于不能创建多级标签，一旦书籍涉及的学科较广，分类将变得相当麻烦，自带的标签可以缓解这个问题，但是又不能创建多级标签，因此实际使用体验依然糟糕.解决办法有：
