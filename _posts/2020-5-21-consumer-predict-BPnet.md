@@ -6,8 +6,8 @@ date: 2020-5-21 21:35:00 +0800
 fig-caption: # Add fig caption (optional)
 tags: [MATLAB]
 ---
-前几天看到一个要求用BP神经网络预测航空公司客户流失的数学模型，如下图
-<div align=center><img src="/assets/images/2020-5-21/customer.png" width="600"/></div>
+前几天看到一个要求用BP神经网络预测航空公司客户流失的数学模型，如下图：
+<img style="display: block; margin: 0 auto;" src="/assets/images/2020-5-21/customer.png" alt="" width="600"/>
 给了六万多条乘客的各类信息，包括会员卡号、级别、年龄、性别、工作地这些基本信息，以及与积分和乘机次数相关的乘机信息。以下是我的处理过程：
 
 ### 数据探索和清洗
