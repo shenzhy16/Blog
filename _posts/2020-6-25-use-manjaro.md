@@ -100,6 +100,9 @@ $ sudo pacman -S electron-netease-cloud-music
 $ sudo pacman -S github-desktop-bin
 ```
 这个包有bug，即点击图标无法启动，原因是启动的二进制文件路径写错了（或者可以认为是文件的路径放错了），解决方式是修改`/usr/bin/github-desktop`，把`/opt/github-desktop/github-desktop`改为/`opt/github-desktop/github-desktop/github-desktop`，史诗级三次套娃
+
+2020年7月6日更新：以上bug现已修复
+
 #### WPS
 ```bash
 $ sudo pacman -S wps-office-cn
